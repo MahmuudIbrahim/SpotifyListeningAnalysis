@@ -1,0 +1,74 @@
+# =========================
+# Secrets / credentials
+# =========================
+config.py
+.env
+.env.*
+
+# =========================
+# Data & caches (generated)
+# =========================
+data/cache/
+data/processed/
+lyrics_raw*.jsonl
+
+# =========================
+# Models & artifacts
+# =========================
+*.model
+item2vec.model
+item2vec_vectors.parquet
+cooc_index.parquet
+eval_metrics.json
+recs_*.parquet
+
+# =========================
+# Python / Jupyter noise
+# =========================
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Raw personal Spotify export
+# =========================
+data/raw/
+data/raw/spotify/
+
+# =========================
+# BI / large binaries
+# =========================
+*.pbix
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Notebook cache
+# =========================
+notebooks/.cache/
+notebooks\.cache/
+**/.cache/
+**\.cache/
+
+
+# =========================
+# One-off junk files
+# =========================
+output_file.txt
+*.docx

@@ -61,11 +61,9 @@ data/raw/spotify/
 # =========================
 # Notebook cache
 # =========================
+notebooks/.cache
 notebooks/.cache/
-notebooks\.cache/
 **/.cache/
-**\.cache/
-
 
 # =========================
 # One-off junk files
